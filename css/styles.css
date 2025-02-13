@@ -47,3 +47,32 @@ img{
     box-shadow: 4px 4px 8px 0px #00000018;
 }
 
+.card-text{
+    display: flex;
+    align-items: center;
+    gap:12px
+}
+
+
+.card-text figure{
+    min-width: 200px;
+}
+
+.card-text figure img{
+    box-shadow: 4px 4px 8px 0px #00000018;
+}
+
+.fotogeral{
+    transform: rotate(3deg);
+}
+
+.fotojuan{
+    transform: rotate(-3deg);
+}
+
+
+@media (max-width: 600px){
+    .card-text{
+        flex-wrap: wrap;
+    }
+}
